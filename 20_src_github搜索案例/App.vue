@@ -1,26 +1,25 @@
 <template>
   <div class="container">
-    <Count/>
+    <Search />
+    <List />
   </div>
 </template>
 
 <script>
-import Count from "./components/Count.vue";
+import Search from "./components/Search.vue";
+import List from "./components/List.vue";
 export default {
   name: "App",
   components: {
-    Count,
+    Search,
+    List,
   },
   data() {
-    return {
-      
-      
-    };
+    return {};
   },
   methods: {},
 };
 </script>
 
 <style>
-
 </style>
